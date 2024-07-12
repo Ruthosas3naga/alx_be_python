@@ -19,7 +19,7 @@ class BankAccount:
             return False
             
         
-    def display_balance(self,amount):
-        amount = self.account_balance
+    def display_balance(self):
+        self.account_balance
         """Print in a friendly mannner""" 
-        print("Curent Balance: $"[amount])
+        print(f"Current Balance: ${self.account_balance:.2f}")
