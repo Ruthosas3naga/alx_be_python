@@ -22,4 +22,4 @@ class BankAccount:
     def display_balance(self,amount):
         amount = self.account_balance
         """Print in a friendly mannner""" 
-        print("Curent Balance:",[amount])
+        print("Curent Balance: $"[amount])
