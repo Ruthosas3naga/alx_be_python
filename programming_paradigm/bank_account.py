@@ -14,7 +14,7 @@ class BankAccount:
                 self.account_balance - amount
                 return True
             print (f"Withdrew:{amount}")
-            if amount >= self.account_balance:
+            if amount > self.account_balance:
                return False
             else: print(f"Insufficient funds")
     
