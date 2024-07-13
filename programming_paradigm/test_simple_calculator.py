@@ -35,6 +35,3 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.divide(-4, -2), -2)
         self.assertEqual(self.calc.divide(-15, 3), -5)
         self.assertEqual(self.calc.divide(6, -2), -3)
-if __name__ == "main":
-    unittest.main()
-# Remember to write additional test methods for subtract, multiply, and divide.
