@@ -46,16 +46,16 @@ class Library:
                     return
         print(f"Book '{title}' not found in the library.")
 
-    def return_book(self, title):
+    def return_book(self):
         for book in self._books:
-            if book.title == title:
+        
                 if book.is_checked_out():
                     book.check_in()
                     return
                 else:
-                    print(f"Book '{title}' was not checked out.")
+                    print(f"Book  was not checked out.")
                     return
-        print(f"Book '{title}' not found in the library.")
+        print(f"Book  not found in the library.")
 
     def list_available_books(self):
         available_books = [book for book in self._books if not book.is_checked_out()]
