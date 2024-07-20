@@ -45,4 +45,5 @@ class Library:
       for book in self.books:
         print(self.books)
 
-   
+   def __str__(self):
+        return f"Library with {len(self.books)} books"
