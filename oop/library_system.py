@@ -47,7 +47,7 @@ class Library:
 
    def list_books(self):
       for book in self.books:
-        print(self.books)
+        print(book)
 
    def __str__(self):
         return f"Library with {len(self.books)} books"
